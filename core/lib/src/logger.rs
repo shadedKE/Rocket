@@ -8,7 +8,7 @@ use yansi::Paint;
 
 pub(crate) const COLORS_ENV: &str = "ROCKET_CLI_COLORS";
 
-struct RocketLogger(LoggingLevel);
+pub struct RocketLogger(LoggingLevel);
 
 /// Defines the different levels for log messages.
 #[derive(PartialEq, Eq, Debug, Clone, Copy)]
